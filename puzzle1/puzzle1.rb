@@ -15,7 +15,7 @@ class Rfid
         queries[0].current_state = :empty # indica que no hi ha cap targeta present
         queries[0].reader_name = @reader
         
-        @context.wait_for_status_change(queries) # espera fins que es detecti canvi estat
+        @context.wait_for_status_change(queries) # espera fins que es detecti canvi d'estat
         queries.ack_changes
     end
 

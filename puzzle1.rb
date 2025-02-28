@@ -1,6 +1,6 @@
 # ACR122U USB reader
 #
-# ruby versió 3.3.7
+# ruby versió 3.3.5
 # instal·lar smartcard abans
 #
 
@@ -59,5 +59,3 @@ if __FILE__ == $0
     uid = rf.read_uid
     puts "UID llegit: #{uid}" if uid
 end
-
-#he de fer un loop?

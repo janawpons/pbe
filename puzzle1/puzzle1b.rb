@@ -1,3 +1,4 @@
+
 require 'ruby-nfc'
 require 'logger'
 

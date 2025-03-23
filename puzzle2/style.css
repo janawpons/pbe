@@ -1,0 +1,34 @@
+window {
+    background-color: #C3DA63; /*verd*/
+}
+
+label {
+    font-size: 16px;
+    color: black;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+button {
+    background-color: lightgray;
+    border: 2px solid #666;
+    padding: 10px;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+}
+
+/* quan el ratolí està a sobre */
+button:hover {
+    background-color: #888;
+    border-radius: 15px;
+}
+
+button:active {
+    background-color: gray;
+    border-radius: 15px;
+}
+
+/* Estil per a la finestra quan es llegeix una targeta */
+window.reading {
+    background-color: #B6A8FD; /*lila*/
+}
